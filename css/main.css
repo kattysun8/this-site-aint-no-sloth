@@ -10,18 +10,45 @@ body {
 }
 
 .banner {
-  background-image: linear-gradient(to top, transparent, rgba(28, 14, 0, 1)), url("../images/sloth-1.jpg");
+  background-image: linear-gradient(to top, transparent, transparent, rgba(28, 14, 0, 1)), url("../images/sloth-1.jpg");
   background-repeat: no-repeat;
-  background-position: bottom, center;
-  background-size: cover;
-  padding-top: 500px;
+  background-position: .2em center;
+  background-size: 40em auto;
   border-top: 3px solid #2d5a4d;
 }
 
 .banner-content {
-  color: #fff;
+  padding-bottom: 500px;
+}
+
+figure {
+  border-top: 3px;
+  border-bottom: 3px;
 }
 
 h1 {
   font-family: Georgia, serif;
+  color: #fff;
+  margin: 0;
+}
+
+.content {
+  background-color: #fff;
+  padding-top: 2em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .content {
+    margin-right: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .content {
+    margin: 5em;
+  }
+
 }

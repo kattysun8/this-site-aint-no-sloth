@@ -1,0 +1,14 @@
+html {
+  font-family: Georgia, serif;
+}
+
+main {
+  background-color: #bea586;
+  background-image: url("../images/sloth-icon.svg");
+  background-size: 48px;
+  background-position: left top;
+}
+
+.masthead {
+  
+}

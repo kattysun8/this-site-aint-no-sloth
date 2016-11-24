@@ -1,14 +1,27 @@
 html {
-  font-family: Georgia, serif;
+  font-family: Verdana, sans-serif;
 }
 
-main {
+body {
   background-color: #bea586;
   background-image: url("../images/sloth-icon.svg");
   background-size: 48px;
   background-position: left top;
 }
 
-.masthead {
-  
+.banner {
+  background-image: linear-gradient(to top, transparent, rgba(28, 14, 0, 1)), url("../images/sloth-1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  background-size: cover;
+  padding-top: 500px;
+  border-top: 3px solid #2d5a4d;
+}
+
+.banner-content {
+  color: #fff;
+}
+
+h1 {
+  font-family: Georgia, serif;
 }
